@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Rosarivo:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  position: relative;
+width: 1340px;
+height: 900px;
+
+background: linear-gradient(68.15deg, #2F2323 16.62%, #8E5252 85.61%);
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  height: 52px;
+}
+
+.menu-cabecalho {
+  display: flex;
+  gap: 40px;
+}
+
+.item-menu {
+  font-family: 'Rosarivo', serif;
+  color: #FFE7E7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo {
+  margin-botton: 48px;
+  border-top: 0.4px solid #FFE7E7;
+}
+.conteudo-inicial {
+  display: flex;
+  flex-direction: roll;
+  align-itens: center;
+  justify-content: space-around;
+}
+.texto-conteudo-inicial {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.texto-conteudo-inicial-titulo {
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFE7E7;
+}
+.texto-conteudo-inicial-subtitulo {
+  font-family: 'Rosarivo', serif;
+  color: #ECD6C4;
+  font-weight: 400;
+  font-size: 24px;
+}
+.texto-conteudo-inicial-botao {
+  background-color: #ECC4C4;
+  width: 120px;
+  height: 50px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Bellefair', serif;
+  color: #170000;
+  font-weight: 400;
+  font-size: 18px;
+}
+.texto-conteudo-inicial-botao: hover{
+  background-color: rgba(236, 210, 190, 0.60);
+}
+
+
+.conteudo-inicial-imagem {
+  height: 430px;
+}
+
+.conteudo-final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 28px;
+}
+.conteudo-final-titulo {
+  border-top: 0.4px solid #FFE7E7;
+  padding-top: 48px;
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+  font-size: 34px;
+  color: #FFE7E7;
+  margin-botton: 16px;
+}
+.conteudo-final-subtitulo {
+  font-family: 'Rosarivo', serif;
+  color: #ECD6C4;
+  font-weight: 400;
+  font-size: 20px;
+}
+.conteudo-final-paragrafo {
+  font-family: 'Rosarivo', serif;
+  color: #FFE7E7;
+  font-weight: 300;
+  font-size: 18px;
+}
+.rodape {
+  border-top: 0.4px solid #FFE7E7;
+  padding: 32px;
+}
