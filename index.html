@@ -7,32 +7,101 @@
     <title>Artoria's Radio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
-    <header class="cabecalho">
-      <img class="cabecalho-imagem" src="a.png" alt="Logo da Artoria's Radio">
-      <nav class="menu-cabecalho">
-        <a class="item-menu">Comunidade Pendragon</a>
-        <a class="item-menu">Tutorial</a>
-        <a class="item-menu">Comandos</a>
-      </nav>
-    </header>
+  
+    <body>
+      <!-- inicio menu -->
+        <header class="top">
+          <span class="img_logo"><img src="images/a.png" alt="logo"></span>
+          <ul >
+            <li>
+              <a class="links_redes" href="#">Comunidade </a>
+            </li>
 
-    <main class="conteudo">
-      <section class="conteudo-inicial">
-        <div class="texto-conteudo-inicial">
-          <h1 class="texto-conteudo-inicial-titulo">Artoria's Radio</h1>
-          <h2 class="texto-conteudo-inicial-subtitulo">Um bot de música para tornar suas calls mais divertidas e animadas!</h2>
-          <button class="texto-conteudo-inicial-botao">Me adicione!</button>
-        </div>
-        <img class="conteudo-inicial-imagem" src="artoria.png" alt="Imagem da Artoria">
-      </section>
-      <section class="conteudo-final">
-        <h3 class="conteudo-final-titulo">O que posso fazer por você:</h3>
-        <h4 class="conteudo-final-subtitulo">Sou uma <strong>bot de música</strong>, logo posso entrar em suas calls quando chamada, reconheço as seguintes plataformas:</h4>
-        <p class="conteudo-final-paragrafo"><strong>Youtube</strong></p>
-        <p class="conteudo-final-paragrafo"><strong>Spotify</strong></p>
-        <p class="conteudo-final-paragrafo"><strong>Soundcloud</strong></p>
-      </section>
-    </main>
-        </body>
-      </html>
+            <li>
+              <a class="links_redes" href="#">Tutorial</a>
+            </li>
+
+            <li>
+              <a class="links_redes" href="#">Comandos</a>
+            </li>
+          </ul>
+        </header>
+        <!-- fim menu -->
+
+        <!-- inicio sub-conteudos -->
+        <section class="conteudo">
+          <div>
+            <h1>Artoria's Radio</h1>
+            <p>Um bot de música para tornar suas calls mais divertidas e animadas!</p>
+            <button onclick="MeAdicione()">Me adicione!</button>
+          </div>
+          <!-- imagem artoria -->
+          <div class="image_artoria">
+            <img src="images/artoria.png" alt="">
+          </div>
+        </section>
+        <!-- fim sub-conteudos -->
+
+        <section>
+            <div class="functionBot">
+              <h1>O que eu posso fazer por você: </h1>
+              <p>sou uma bot de música, logo posso entrar em suas calls quando chamada, reconheço as seguintes plataformas:</p>
+            </div>
+            <ul class="plataformas">
+              <li>
+                <a href="">
+                  <img src="images/youtube-svgrepo-com.svg" alt="" width="50">
+                  youtube
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="images/spotify.png" alt="" width="50">
+                  spotify
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="images/soundcloud.png" alt="" width="50">
+                  soundcloud
+                </a>
+              </li>
+            </ul>
+        </section>
+
+        <!-- inicio footer -->
+        <footer class="bcg">
+            <div class="copy">
+              <ul>
+                <li>
+                  <P>copyright © - Enzo lemos - Gustavo duarte</P>
+                </li>
+              </ul>
+            </div>
+
+            <div class="Redes_sociais">
+              <ul>
+                <li>
+                  <a href="">
+                    <img src="images/instagram.png" alt="icone instagram" width="30">
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="images/twitter.png" alt="icone twitter" width="30">
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </footer>
+        <!-- fim footer -->
+
+        <script>
+            function MeAdicione() {
+              alert('Esse comando ainda não funciona seu retardado')
+            }
+        </script>
+    </body>
+</html> 
